@@ -1,0 +1,14 @@
+Here's a step-by-step instruction on how to get SM-Blender working on your machine. Please note that until now SM-Blender has been tested only on linux, altough any system containing a working ffmpeg should be able to work.
+
+Prerequisites
+If you would like to get SM-Blender working, you need ffmpeg (https://ffmpeg.org/) intalled on your computer. The ffmpeg application should be runnable accessible from the commandline.
+
+Setting up blender
+  1. Download the SM-blender.py script locally
+  2. Open up the blender user preferences
+  3. Via "install from file" select the SM-blender.py file
+  4. Open up the UV/Image editor and under tools (shortcut = T) you should see a new panel called "Stop Motion"
+
+Using SM-Blender
+This is as simple as pressing the button "Capture frame". What this does is call ffmpeg to capture a single frame from the device and store it in the folder defined by "Output dir". It will then add this frame to the Video Sequence Editor at the current frame location and advance one frame.
+Once all frames have been captured, the seuqence can be rendered into a movie clip, with or without sound. Additionally other blender features can be used to enhance the result. Please check the blender documentation for more help.
