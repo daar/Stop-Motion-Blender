@@ -1,6 +1,4 @@
-[![license](https://img.shields.io/badge/license-%20MIT-blue.svg)](../master/LICENSE)
-
-<img src="https://www.blender.org/wp-content/themes/bthree/assets/images/logo.png" alt="Blender" width="25%" height="25%"/>
+[![license](https://img.shields.io/badge/license-%20MIT-blue.svg)](../master/LICENSE) <img src="https://www.blender.org/wp-content/themes/bthree/assets/images/logo.png" alt="Blender" width="15%" height="15%"/>
 
 # Stop motion blender
 This script  adds stop motion capabilitiy to [blender](www.blender.org).
